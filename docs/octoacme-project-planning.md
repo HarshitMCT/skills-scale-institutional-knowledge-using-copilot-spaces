@@ -16,6 +16,17 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
+## Cross-Functional Inputs to Planning
+
+To reduce handoff ambiguity, the following roles contribute specific inputs during planning activities:
+
+- **UX/UI Designer**: Provides wireframes or design specs for user-facing stories; flags any stories requiring usability testing before acceptance criteria are finalized
+- **Business Analyst**: Elaborates acceptance criteria, documents business rules, and ensures stories are traceable to business objectives; facilitates requirement workshops when scope is unclear
+- **DevOps Engineer**: Identifies infrastructure, environment, or pipeline dependencies; contributes to the Definition of Done by specifying deployment, monitoring, and security-scan gate requirements
+- **Customer Support Lead**: Reviews planned features for support-readiness implications (e.g., documentation needs, FAQ updates, escalation paths); flags known customer pain points that may inform priority
+
+These inputs should be collected during backlog refinement sessions before stories are pulled into sprint planning.
+
 ## Backlog Item Template
 - Title:
 - Description:

@@ -23,6 +23,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+## Cross-Functional Collaboration Touchpoints
+
+During execution, the following interactions keep delivery aligned across roles:
+
+- **Design Reviews**: UX/UI Designers and Developers hold mid-sprint design reviews to verify implementation matches approved designs; unresolved gaps are flagged as blockers before the story moves to QA
+- **Release Readiness Checks**: DevOps Engineers confirm pipeline health, environment parity, and monitoring coverage before each deployment; this check is a required step in the Definition of Done for release-tagged items
+- **Incident Triage Loops**: When production incidents are detected, DevOps Engineers and Developers triage the issue in a dedicated channel; the Customer Support Lead is notified immediately to manage user-facing communications while engineering investigates
+- **BA Clarification Sessions**: Business Analysts are available during execution to clarify acceptance criteria edge cases; unresolved ambiguities should be raised in the daily standup or via a linked issue comment rather than resolved independently
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
